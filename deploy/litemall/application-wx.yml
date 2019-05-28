@@ -1,0 +1,6 @@
+wx:
+    app-id: wxce2f24c6b024116a
+    app-secret: 5ee6c286f81d20baf4a9137b8708d402
+    mch-id: 1526382041
+    mch-key: syjava2018andsdwww2017woaisyjava
+    notify-url: http://www.example.com/wx/order/pay-notify

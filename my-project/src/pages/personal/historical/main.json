@@ -1,0 +1,10 @@
+{
+    "navigationBarTitleText": "历史订单详情",
+    "usingComponents": {
+      "i-button": "../../../../static/dist/button/index",
+      "i-card": "../../../../static/dist/card/index",
+      "i-panel": "../../../../static/dist/panel/index"
+  }
+}
+
+  

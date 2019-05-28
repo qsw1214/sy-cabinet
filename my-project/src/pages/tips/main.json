@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "取包",
+    "usingComponents": {
+      "i-button": "../../../../static/dist/button/index"
+  }
+}

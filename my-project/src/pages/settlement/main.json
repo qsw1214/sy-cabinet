@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "结算页面",
+  "usingComponents": {
+    "i-button": "../../static/dist/button/index"
+  }
+}

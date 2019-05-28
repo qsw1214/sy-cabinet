@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选择存取",
+  "usingComponents": {
+    "i-button": "../../static/dist/button/index"
+  }
+}

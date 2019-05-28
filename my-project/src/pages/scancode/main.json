@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "扫一扫",
+  "usingComponents": {
+    "i-button": "../../static/dist/button/index",
+    "i-checkbox-group": "../../static/dist/checkbox-group/index",
+    "i-checkbox": "../../static/dist/checkbox/index"
+  }
+}

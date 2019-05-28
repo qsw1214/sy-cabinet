@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+      "i-row": "../../static/dist/row/index",
+      "i-col": "../../static/dist/col/index",
+      "i-icon": "../../static/dist/icon/index",
+      "i-panel": "../../static/dist/panel/index",
+      "i-button": "../../static/dist/button/index",
+      "i-tab-bar": "../../static/dist/tab-bar/index",
+      "i-tab-bar-item": "../../static/dist/tab-bar-item/index",
+      "i-modal": "../../static/dist/modal/index"
+    },
+    "navigationBarTitleText": "选择箱型"
+  }
+

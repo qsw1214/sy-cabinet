@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.linlinjava.litemall.db.dao.SongYunStatMapper">
+	<!-- 根据年月日统计柜子实际赚取金额 -->
+	<select id="ProfitStati" resultType="map" parameterType="map">
+		select DATE_FORMAT(start_time,#{ymd,jdbcType=VARCHAR}) day,
+		sum(actual_amount) amount from litemall_usage_record where status = 1
+		<if test="date == 'day'">
+		and year(start_time) = #{year,jdbcType=VARCHAR} 
+		and month(start_time) = #{month,jdbcType=VARCHAR}
+		and day(start_time) <![CDATA[ <= ]]> #{day,jdbcType=VARCHAR} 
+		</if>
+		<if test="date == 'month'">
+		and year(start_time) = #{year,jdbcType=VARCHAR} 
+		and month(start_time) <![CDATA[ <= ]]> #{month,jdbcType=VARCHAR}
+		</if>
+		<if test="date == 'year'">
+		and year(start_time) <![CDATA[ <= ]]> #{year,jdbcType=VARCHAR} 
+		</if>
+		GROUP BY day
+	</select>
+	<!-- 获取总利润 -->
+	<select id="totalProfit" resultType="java.lang.String">
+		select sum(actual_amount) as total from  litemall_usage_record where status = 1
+	</select>
+</mapper>

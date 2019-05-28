@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/selectaccess/main",
+    "pages/confirm/main",
+    "pages/settlement/main",
+    "pages/personal/capital/main",
+    "pages/currentOrder/main",
+    "pages/renewalFee/main",
+    "pages/login/main",
+    "pages/personal/order/main",
+    "pages/addbankcar/main",
+    "pages/personal/personage/main",
+    "pages/scancode/main",
+    "pages/personal/withdrawal/main",
+    "pages/phoandpass/main",
+    "pages/personal/historical/main",
+    "pages/personal/balance/main",
+    "pages/personal/deposit/main",
+    "pages/tips/main",
+    "pages/temporary/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/locker/main",
+    "pages/bagTaking/main",
+    "pages/confirm_detail/main",
+    "pages/depositResults/main",
+    "pages/select/main",
+    "pages/payDeposit/main"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#343537",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#FFCA26",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/selectaccess/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "个人中心",
+      "pagePath": "pages/personal/personage/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }],
+
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/selectaccess/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }, {
+      "name": "个人中心",
+      "pagePath": "pages/personal/personage/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }],
+    "position": "bottom"
+  }
+}

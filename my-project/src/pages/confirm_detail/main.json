@@ -1,0 +1,11 @@
+{
+    "usingComponents": {
+      "i-notice-bar": "../../static/dist/notice-bar/index",
+      "i-tag": "../../static/dist/tag/index",
+      "i-icon": "../../static/dist/icon/index",
+      "i-button": "../../static/dist/button/index",
+      "i-panel": "../../static/dist/panel/index"
+    },
+    "navigationBarTitleText": "用户协议"
+  }
+

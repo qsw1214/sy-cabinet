@@ -1,0 +1,98 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wx788d1dc9ea4fdc73",
+	"projectname": "sy_cab",
+	"libVersion": "2.6.5",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": -1,
+					"name": "订单详情",
+					"pathName": "pages/personal/order/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "账单详情",
+					"pathName": "pages/personal/capital/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "押金",
+					"pathName": "pages/personal/deposit/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "选柜",
+					"pathName": "pages/select/main",
+					"query": "stanMianId=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "扫码",
+					"pathName": "pages/scancode/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "订单",
+					"pathName": "pages/personal/order/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "续费",
+					"pathName": "pages/settlement/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "取包",
+					"pathName": "pages/renewalFee/main",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
